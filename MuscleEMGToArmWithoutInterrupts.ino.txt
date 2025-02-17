@@ -1,29 +1,3 @@
-//Script to control InMoov Arm using Muscle Sensor V3 from Advancer Technologies
-//by Carlos Alquezar (calquezar87@gmail.com)
-//Zaragoza (Spain)
-//February 2014
-//Part of Roujin Project (website available soon)
-
-//For information about Muscle Sensor V3 board, manual and other resouces, please visit:
-// http://www.advancertechnologies.com/p/muscle-sensor-v3.html
-
-/*
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details. 
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
-*/
-
-
 #include <Servo.h>
 
 #define THRESHOLD 150 //In order to determine the state of the hand (opened/closed)
